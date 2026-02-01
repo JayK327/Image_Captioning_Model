@@ -6,10 +6,10 @@ This project uses the **Flickr8k dataset** for image captioning experiments. The
 
 The project expects the dataset to be organized in the **parent directory** like this:
 
-parent_directory/         # this repository
-├── Flickr8k_text/        # contains captions, splits, and annotations
-├── Flickr8k_Dataset/     # contains all Flickr8k images
- 
+```md
+parent_directory/
+├── Flickr8k_text/
+└── Flickr8k_Dataset/
 
 You can download the dataset from Kaggle:  
 [Flickr8k Dataset on Kaggle](https://www.kaggle.com/datasets/dibyansudiptiman/flickr-8k)
